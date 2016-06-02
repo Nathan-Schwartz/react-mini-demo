@@ -1,0 +1,27 @@
+{
+  "name": "reactdemomks36",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/main.js",
+    "build": "./node_modules/webpack/bin/webpack.js -w -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Schwartz <Nathan.Schwartz95@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.4",
+    "jquery": "^2.2.4",
+    "nodemon": "^1.9.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
